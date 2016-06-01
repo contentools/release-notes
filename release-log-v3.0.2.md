@@ -1,49 +1,57 @@
 # Release Log - v3.0.2
+Hello everyone, this is the third release we have on this quarter with a lot of really
+great improvements. We worked hard this week to deliver a better experience to our customers
+and partners. Here is a list of new features, improvements and bug fixes we made.
 
 ## Mentions
-Agora os usuários da plataforma podem mencionar membros do time de conteúdo dentro dos
-comentários! Experimentem digitando '@' e selecionando um membro da lista.
+The ability to notify someone when a content needs attention is important. Our team
+designed a way to mention project team members on a content by typing '**@**' inside the
+comments tab. Check this out:
 
 ![mentions](img/3.0.2/mentions.png)
 
-Ao confirmar o comentário, a pessoa mencionada receberá uma notificação interna da plataforma
-e um e-mail como este:
+The new comment will issue an in-app notification to the given user and send it by
+email. This email notification can be disabled on User > Settings > Notifications menu.
 
 ![mentions-email](img/3.0.2/mentions-email.png)
 
-## Unsubscribe do Resumo Diário
-Os emails de resumo diário agora possuem um link chamado **Change email preferences** no
-final do corpo do email.  
+## Unsubscribe from Daily Digest
+Sometimes its hard to remember which workspaces we are involved with. Usually marketplace content
+professionals interacts with a lot of workspaces and are annoyed by tons of digest emails.
+The ability to change the notification preferences directly by clicking on the link provided
+in the end of email body is primordial.
   
 ![unsubscribe daily digest](img/3.0.2/emailpreferences.png)
 
-## Migrações em Paralelo
-Os releases da plataforma que acontecem todas as terças feiras a meia noite passaram a ser
-mais rápidos. Quando alteramos coisas importantes na base de dados dos clientes, normalmente
-isso tomava várias horas no processo de release. Conseguimos reduzir o tempo para aproximadamente
-1 hora de release depois desta melhoria. Isso diminuiu drásticamente nosso downtime de manutenção
-semanal, garantindo uma maior qualidade de serviço para os nossos clientes.
+## Parallel Releases
+The contentools platform releases happens every tuesday near 10 PM PST. Aiming the reduce the
+web interface downtime our team developed a release process that updates all customers
+workspace databases in parallel. Our releases are 400% faster now. Our last release took only
+one hour to update all our customers databases. It assure our partners the reliability of
+contentools platform to a new level.
 
 ![parallel-migration](img/3.0.2/parallel-migration.png)
 
 ## Layout Improvements
-Fizemos alguns ajustes no layout do menu superior da plataforma. Alguns redatores (principalmente
-profissionais do marketplace) estavam reclamando que não conseguiam enxergar a lista de companies
-devida a falta de *scroll-bar* no drop-down de companies. Solucionamos isso adotando o mesmo layout
-do wizard.  
+Our UX Jedi Knights made some adjustments on the header toolbar. Some users were experiencing
+difficult in listing all workspaces they are involved in. We added a new layout supporting
+overflow scroll-bars, very similar to the solution we have on the wizard menu.
 
 ![company-list-layout](img/3.0.2/company-list.png)
 
 # Invite Message
-Agora a plataforma permite que você convide pessoas personalizando a mensagem do email.
+A good internal communication is the key to the team interaction success. Targeting this, we
+added the ability to customise the invitation email text. Check it out:
 
 ![custom-invite-message](img/3.0.2/custom-invite-message.png)
 
 ## Bug Fixes
-- Bug relacionado a content-types que não aparecem todos as fases do workflow.
-- Company sem projetos estava mostrando texto em inglês mesmo quando cliente usava locale pt-BR.
-- Removido o código da Intro.JS do sistema para não aparecer mais aquela introdução feia na plataforma.
-- Encontramos um bug na biblioteca de integração do zapier. Mandamos o fix para eles, e gentilmente aceitaram e colocaram no código base deles.
+- Sometimes, after creating a new content type, the workflow phases desappear (fixed).
+- The warning message about workspaces without projects wasn't localized to pt-BR locale.
+- Removed the buggy platform automated onboarding script. A new onboarding experience is being created (soon).
+- Our team found a problem on zapier rest hook public library that was causing abnormal behavior on
+our initial integration tests. The engineering team made a bug fix and send back to zapier team analyze
+and they accepted the solution. The whole python community benefited from it.
 
   
 
