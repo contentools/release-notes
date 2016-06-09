@@ -29,6 +29,6 @@ Here is a list of the few bugs we detected from our last release:
 
 
 ## What is comming?
-We are proud to annouce we are almost finishing our brand new blog post editor with a lot of user experience improvements. Also, we have some big deliverables in the next weeks to improve the platform communication with wordpress, enabling users to edit the content inside the blog CMS and synchronize gain with Contentools platform. The ability to create blog posts with images in the content body is in development process too. We are very excited about these deliverables. Feel free to give us feedbacks!
+We are proud to annouce we are almost finishing our brand new blog post editor with a lot of user experience improvements. Also, we have some big deliverables in the next weeks to improve the platform communication with wordpress, enabling users to edit the content inside the blog CMS and synchronize gain with Contentools platform. The ability to create blog posts with images in the content body is under development. We are very excited about these deliverables. Feel free to give us feedbacks!
 
 with :heart:, Contentools Product Team.
